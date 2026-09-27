@@ -1,12 +1,3 @@
 {
-  "services": {
-    "frontend": {
-      "root": "frontend/",
-      "framework": "vite"
-    },
-    "backend": {
-      "root": "backend/",
-      "entrypoint": "app:app"
-    }
-  }
+  "outputDirectory": "build"
 }
