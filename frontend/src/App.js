@@ -4,7 +4,7 @@ import ImageUpload from "./components/ImageUpload";
 import PredictionResult from "./components/PredictionResult";
 
 // Change this if your Flask backend runs on a different host/port
-const API_URL = "http://localhost:5000/api/predict";
+const API_URL = "https://flower-classifier-using-ml.onrender.com/api/predict";
 
 export default function App() {
   const [selectedFile, setSelectedFile] = useState(null);

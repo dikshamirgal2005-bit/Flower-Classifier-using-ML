@@ -21,7 +21,7 @@ import tensorflow_datasets as tfds
 from tensorflow.keras import layers, models
 
 IMG_SIZE = 160
-BATCH_SIZE = 32
+BATCH_SIZE = 8
 EPOCHS_HEAD = 8          # training just the new classifier head
 EPOCHS_FINE_TUNE = 6     # fine-tuning the top of the base model
 LEARNING_RATE = 1e-3
